@@ -48,8 +48,8 @@ async def contact_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 save_queue()
 
 (f"{len(queue)+1}. {name} — {phone}")
-await update.message.reply_text("🟢 Siz navbatga qo‘shildingiz")
 
+await update.message.reply_text("🟢 Siz navbatga qo‘shildingiz")
         f"✅ Navbatga qo‘shildingiz!\n"
         f"👤 Ism: {name}\n"
         f"📞 Telefon: {phone}\n"

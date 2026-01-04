@@ -1,6 +1,8 @@
 
-import os
 TOKEN = os.getenv("8168421097:AAFv9HBpeIY7Y0I8E1rr62psRFtzXbNZm-M")
+
+
+import os
 
 
 import os

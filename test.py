@@ -1,4 +1,8 @@
- 
+
+import os
+TOKEN = os.getenv("8168421097:AAFv9HBpeIY7Y0I8E1rr62psRFtzXbNZm-M")
+
+
 import os
 import json
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
@@ -10,7 +14,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = os.getenv("8168421097:AAFv9HBpeIY7Y0I8E1rr62psRFtzXbNZm-M")
+
 DATA_FILE = "queue.json"
 ADMIN_ID = 877966378  # BU YERGA O‘ZINGNING TELEGRAM ID’ingni YOZ
 

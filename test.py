@@ -44,7 +44,9 @@ async def contact_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     phone = contact.phone_number
     name = update.effective_user.first_name
 
-    queue.append save_queue()
+    queue.append(f"{len(queue)+1}. {name} — {phone}")
+save_queue()
+
 (f"{len(queue)+1}. {name} — {phone}")
 
     await update.message.reply_text(

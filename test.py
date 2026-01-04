@@ -21,7 +21,7 @@ def load_queue():
     except:
         return []
 
-def save_queue():
+def save_queue()
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(queue, f, ensure_ascii=False)
 

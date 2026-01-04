@@ -74,7 +74,8 @@ next_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("📭 Navbat bo‘sh")
         return
 
-    current = queue.pop(0) save_queue()
+    current = queue.pop(0) 
+save_queue()
 
     await update.message.reply_text(f"➡️ Keyingi mijoz:\n{current}")
     async def clear_queue(update: Update, context: ContextTypes.DEFAULT_TYPE):

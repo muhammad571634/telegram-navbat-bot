@@ -49,7 +49,7 @@ save_queue()
 
 (f"{len(queue)+1}. {name} — {phone}")
 
-    await update.message.reply_text(
+    await update.message.reply_text:)
         f"✅ Navbatga qo‘shildingiz!\n"
         f"👤 Ism: {name}\n"
         f"📞 Telefon: {phone}\n"

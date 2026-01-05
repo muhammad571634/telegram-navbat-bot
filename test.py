@@ -7,8 +7,8 @@ TOKEN = os.environ.get("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
 
 print("TOKEN VALUE:", TOKEN)
 
-if not TOKEN:
-    raise RuntimeError("TOKEN NOT FOUND")
+#if not TOKEN:
+ #   raise RuntimeError("TOKEN NOT FOUND")
 
 
 

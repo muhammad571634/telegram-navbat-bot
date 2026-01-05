@@ -1,10 +1,11 @@
 
 
-print("DEBUG TOKEN:", TOKEN)
+
 
 
 import os
-TOKEN = "8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY"
+TOKEN = os.getenv("8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY")
+print("DEBUG TOKEN:", TOKEN)
 
 import os
 import json

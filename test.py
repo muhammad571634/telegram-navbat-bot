@@ -1,4 +1,4 @@
-
+f
 import os
 
 print("ALL ENV KEYS:", list(os.environ.keys()))
@@ -129,4 +129,7 @@ app.add_handler(CommandHandler("clear", clear_queue))
 app.add_handler(MessageHandler(filters.CONTACT, contact_handler))
 
 app.run_polling()
+
+print("BOT FILE STARTED")
+
 

@@ -1,4 +1,8 @@
 
+
+
+print("PYTHON FILE STARTED")
+
 import os
 
 print("ALL ENV KEYS:", list(os.environ.keys()))

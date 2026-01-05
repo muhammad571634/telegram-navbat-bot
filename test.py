@@ -4,10 +4,6 @@
 
 
 import os
-TOKEN = os.getenv("8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY")
-print("DEBUG TOKEN:", TOKEN)
-
-import os
 import json
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import (
@@ -17,6 +13,12 @@ from telegram.ext import (
     
     filters,
 )
+
+
+import os
+TOKEN = os.getenv("8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY")
+print("DEBUG TOKEN:", TOKEN)
+
 
 
 DATA_FILE = "queue.json"

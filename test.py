@@ -16,7 +16,7 @@ from telegram.ext import (
 
 
 import os
-TOKEN = os.getenv("8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY")
+TOKEN = os.getenv("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
 print("DEBUG TOKEN:", TOKEN)
 
 

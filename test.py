@@ -1,5 +1,14 @@
 
 
+import os
+
+TOKEN = os.getenv("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
+
+if not TOKEN:
+    raise RuntimeError("TOKEN NOT FOUND")
+
+
+
 
 
 
@@ -14,10 +23,6 @@ from telegram.ext import (
     filters,
 )
 
-
-import os
-TOKEN = os.getenv("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
-print("DEBUG TOKEN:", TOKEN)
 
 
 

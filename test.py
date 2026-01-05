@@ -3,13 +3,6 @@
 
 print("PYTHON FILE STARTED")
 
-import os
-
-print("ALL ENV KEYS:", list(os.environ.keys()))
-
-TOKEN = os.environ.get("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
-
-print("TOKEN VALUE:", TOKEN)
 
 #if not TOKEN:
  #   raise RuntimeError("TOKEN NOT FOUND")
@@ -31,6 +24,13 @@ from telegram.ext import (
     filters,
 )
 
+import os
+
+print("ALL ENV KEYS:", list(os.environ.keys()))
+
+TOKEN = os.environ.get("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
+
+print("TOKEN VALUE:", TOKEN)
 
 
 

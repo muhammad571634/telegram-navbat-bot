@@ -1,11 +1,15 @@
 
-
 import os
 
-TOKEN = os.getenv("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
+print("ALL ENV KEYS:", list(os.environ.keys()))
+
+TOKEN = os.environ.get("8168421097:AAFkOOvQazni4wF4HoGxyPLMtXxwBDETMRc")
+
+print("TOKEN VALUE:", TOKEN)
 
 if not TOKEN:
     raise RuntimeError("TOKEN NOT FOUND")
+
 
 
 

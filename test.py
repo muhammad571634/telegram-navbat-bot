@@ -127,9 +127,9 @@ app.add_handler(CommandHandler("list", list_queue))
 app.add_handler(CommandHandler("next", next_user))
 app.add_handler(CommandHandler("clear", clear_queue))
 app.add_handler(MessageHandler(filters.CONTACT, contact_handler))
-
+print("BOT FILE STARTED")
 app.run_polling()
 
-print("BOT FILE STARTED")
+
 
 

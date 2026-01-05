@@ -1,5 +1,6 @@
 
 
+print("DEBUG TOKEN:", TOKEN)
 
 
 import os

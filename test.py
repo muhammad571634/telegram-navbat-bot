@@ -3,7 +3,7 @@
 
 
 import os
-TOKEN = os.getenv("8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY")
+TOKEN = "8168421097:AAHZk5Uj_F0gPMdQXmR7NYXBxLPzjTKN5aY"
 
 import os
 import json
